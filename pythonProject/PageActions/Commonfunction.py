@@ -92,7 +92,7 @@ class CommonFunctions:
         """
             This function will do -
                 - switch the frame
-        :return:    
+        :return:
         """
 
         self.browser.switch_to.frame(self.browser.find_element_by_xpath(xpath))
